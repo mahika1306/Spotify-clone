@@ -1,0 +1,250 @@
+  @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Heebo:wght@200;300&display=swap');
+
+  html,
+  body {
+      background-color: rgb(40, 38, 38);
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+  }
+
+  .horizon {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .vertical {
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+
+  }
+
+  i {
+      margin: 10px;
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+  a:hover {
+
+      opacity: 0.8;
+  }
+  .firstRow{
+    display: flex;
+    flex-direction:row;
+    justify-self: space-between;
+
+  }
+  .secondRow{
+    display: flex;
+    flex-direction:row;
+    justify-self: space-between;
+
+  }
+
+  .top-nav {
+      font-family: 'Varela Round', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-self: space-between;
+      position:absolute;
+      height: 75px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: black;
+      color: white;
+  }
+
+  .login {
+      margin-top: 10px;
+      border: none;
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 14px 36px;
+      text-align: center;
+      transition: all 0.3s linear;
+      border-radius: 50px;
+  }
+
+  .login:hover {
+      transform: scale(1.1);
+
+  }
+  h2{
+    color: white;
+    font-weight: bolder;
+  }
+  .card{
+    cursor: pointer;
+    font-family:'Varela Round', sans-serif;
+    border:1px solid black;
+    margin:30px;
+    transition: all 0.3s linear;
+  }
+  .card:hover{
+    transform: scale(1.2);
+  }
+  .cb{
+    background-color: rgb(30 29 29);
+    color:white;
+  }
+  
+
+  .top-nav ul {
+      margin-left: auto;
+  }
+
+  .top-nav li {
+      display: inline-block;
+      margin: 15px;
+      cursor: pointer;
+  }
+
+
+  .side-nav {
+      font-family: 'Varela Round', sans-serif;
+      float: left;
+      width:15vw;
+      height: 100%;
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+
+  }
+
+  .side-nav ul {
+      /* display: flex; */
+      align-items: center;
+      list-style-type: none;
+      /* height: 65px; */
+      background-color: black;
+      color: white;
+  }
+
+  .side-nav ul li {
+      padding: 12px;
+      cursor: pointer;
+  }
+
+  .brand img {
+      width: 44px;
+      padding: 0 8px;
+  }
+
+  .brand {
+      display: flex;
+      align-items: center;
+      font-weight: bolder;
+      font-size: 1.6rem;
+  }
+
+  .card {
+      width: 200px;
+      height:350px;
+  }
+
+  .container {
+      min-height: 90vh;
+      color: white;
+    position: relative;
+      font-family: 'Varela Round', sans-serif;
+      display: flex;
+      flex-direction: column;
+      padding: 34px;
+      background-color:rgb(40, 38, 38);
+      height: calc(100vh - 175px);
+      /* subtract the heights of top-nav and bottom */
+      width: calc(100vw - 15vw);
+      /* subtract the width of side-nav */
+      margin-top: 75px;
+      /* adjust for the height of top-nav */
+      margin-left: 15vw;
+      /* background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; */
+  }
+
+
+  .bottom {
+      position: fixed;
+      height: 100px;
+      width: 100%;
+      background-color: black;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      flex-direction: column;
+  }
+
+  .icons {
+      margin-top: 14px;
+  }
+
+  .icons i {
+      cursor: pointer;
+  }
+
+  #myProgressBar {
+      width: 80vw;
+  }
+
+  .songItemContainer {
+      margin-top: 74px;
+  }
+
+  .songItem {
+      height: 50px;
+      display: flex;
+      background-color: white;
+      min-width: 30vw;
+      color: black;
+      margin: 12px 0;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 34px;
+  }
+
+  .songItem span {
+      display: inline-block;
+  }
+
+  .songItem span:nth-child(2) {
+      margin-right: 10px;
+  }
+
+  .songItem img {
+      width: 43px;
+      margin: 0 23px;
+      border-radius: 34px;
+  }
+
+  .timestamp {
+      margin-right: 10px;
+
+  }
+
+  .timestamp i {
+      margin-left: 10px;
+      cursor: pointer;
+
+  }
